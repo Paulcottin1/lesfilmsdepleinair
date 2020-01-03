@@ -1,0 +1,640 @@
+
+/* Navigation bar */
+
+nav a {
+    margin-left: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.black {
+    background-color: black !important;
+}
+nav button {
+    background-color: white !important;
+}
+
+nav a:hover {
+    color: #ffc107 !important;
+}
+.title-nav {
+    color: #ffc107 !important;
+}
+
+nav a {
+    color:white !important;
+}
+
+
+
+
+@media all and (max-width:370px) {
+    #header-principal {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin:0px;
+        padding-right: 0px;
+        text-align: center;
+    
+    }
+    
+    
+    #header-principal h1 {
+    font-size: 25px;
+    background-color: transparent;
+    margin: auto;
+    float:none;
+    }
+    
+    #header-principal nav {
+    text-align: center;
+    margin: auto;
+    
+    }
+    
+    nav a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        margin: auto;
+        border-right: solid white 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
+    
+    nav a:hover {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
+
+@media (min-width:370px) and (max-width:480px) {
+    #header-principal {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin:0px;
+        padding-right: 0px;
+        text-align: center;
+    
+    }
+    
+    
+    #header-principal h1 {
+    font-size: 25px;
+    background-color: transparent;
+    margin: auto;
+    float:none;
+    }
+    
+    #header-principal nav {
+    text-align: center;
+    margin: auto;
+    
+    }
+    
+    nav a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        margin: auto;
+        border-right: solid white 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
+    
+    nav a:hover {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
+
+@media (min-width:480px) and (max-width: 780px) {
+    #header-principal nav {
+        text-align: center;
+        margin: auto;
+        
+        }
+        
+        nav a {
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            margin: auto;
+            border-right: solid white 1px;
+            padding-left: 5px;
+            padding-right: 5px;
+        
+        }
+        
+        nav a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+}
+/* template Site */
+
+p {
+    font-size: 18px;
+
+}
+h1 {
+    font-size: 24px;
+}
+
+
+/* Page accueil */
+.index {
+ padding-top: 20px; 
+ padding-bottom: 40px; 
+ background-image: url("https://wallpaperfm.com/img/original/1/9/6/3543.jpg");
+ background-position: center;
+
+
+ margin: 0px;
+}
+.index h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 40px;
+}
+.index p {
+    text-align: center;
+    color: white;
+    font-size:20px;
+    text-shadow: 1px 1px 2px black;
+}
+.index a {
+    text-align: center;
+    color: black;
+    background-color: white;
+    width:40%;
+    margin:auto;
+
+}
+.articles {
+    width:100%;
+    margin: auto;
+}
+
+article {
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+
+    
+}
+.titre-film {
+    font-size: 28px;
+}
+
+.img-film {
+height: 310px;
+width: 220px;    
+border: solid black 1px;
+}
+
+
+.auteur-film {
+font-weight: bold;
+}
+
+.date-film {
+text-decoration: underline;
+}
+
+.reservation-bouton {
+    margin-top: 5px;
+}
+.reservation-index {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: solid 1px #ffc107;
+}
+.img-reservation-index {
+    background-image: url("https://festivalwallpaper.com/wallpapers-hd/popcorn-tumblr-wallpapers-picture-On-High-Resolution-Wallpaper.png");
+    background-position: center;
+    background-size: 100%;
+
+}
+
+/* Page programmation  */
+.content {
+  margin: auto;
+  padding-bottom: 10px;
+  border-top: solid 1px #ffc107;
+}
+
+.content-img {
+    text-align: center;
+    margin-top: 15px;
+}
+.img-synopsis {
+    
+    height: 600px;
+    border: solid black 1px;
+    margin: auto;
+} 
+
+.content-synopsis {
+    padding-top: 50px;
+    text-align: left;
+    
+}
+
+.content-synopsis h1 {
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.content-synopsis h2 {
+    font-size: 28px;
+}
+
+.content-synopsis-invers {
+    padding-top: 50px;
+    text-align: right;
+}
+.content-synopsis-invers h1 {
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.content-synopsis-invers h2 {
+    font-size: 28px;
+}
+.date-projection {
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+.date-projection h1 {
+    color: white;
+    font-size: 40px !important;
+}
+
+@media all and (max-width:370px) {
+    .content {
+        border-top: solid 1px #ffc107;
+    }
+    .content img {
+        margin-top: 5px;
+        height: 300px;
+        width: 70%;  
+    } 
+    .content-synopsis {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-synopsis h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-synopsis h2 {
+        font-size: 20px;
+    }
+    .content-synopsis-invers {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-synopsis-invers h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-synopsis-invers h2 {
+        font-size: 20px;
+    }
+
+    .date-projection {
+        padding-top: 15px;
+        padding-right: 5px;
+    }
+    .date-projection h1 {
+        color: white;
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width:370px) and (max-width:480px) {
+    .content {
+        border-top: solid 1px #ffc107;
+    }
+    .content img {
+        margin-top: 5px;
+        height: 300px;
+        width: 70%;  
+    } 
+    .content-synopsis {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-synopsis h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-synopsis h2 {
+        font-size: 24px;
+    }
+    .content-synopsis-invers {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-synopsis-invers h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-synopsis-invers h2 {
+        font-size: 24px;
+    }
+
+    .date-projection {
+        padding-top: 25px;
+        padding-right: 5px;
+    }
+    .date-projection h1 {
+        color: white;
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width:480px) and (max-width: 780px) {
+    .content {
+        border-top: solid 1px #ffc107;
+    }
+
+    .content img {
+        
+        height: 400px;
+        width: 80%;  
+    } 
+    .content-synopsis {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-synopsis h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-synopsis h2 {
+        font-size: 20px;
+    }
+    .content-synopsis-invers {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-synopsis-invers h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-synopsis-invers h2 {
+        font-size: 20px;
+    }
+
+    .date-projection {
+        padding-top: 15px;
+        padding-right: 5px;
+    }
+    .date-projection h1 {
+        color: white;
+        font-size: 30px !important;
+    }
+}
+    @media (min-width:781px) and (max-width: 1000px) {
+        .content {
+            border-top: solid 1px #ffc107;
+        }
+
+        .content img {
+            
+            height: 400px;
+            width: 70%;  
+        } 
+        .content-synopsis {
+            padding-top: 5px;
+            text-align: center;
+        }
+        .content-synopsis h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .content-synopsis h2 {
+            font-size: 20px;
+        }
+        .content-synopsis-invers {
+            padding-top: 5px;
+            text-align: center;
+        }
+        .content-synopsis-invers h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .content-synopsis-invers h2 {
+            font-size: 20px;
+        }
+    
+        .date-projection {
+            padding-top: 15px;
+            padding-right: 5px;
+        }
+        .date-projection h1 {
+            color: white;
+            font-size: 30px !important;
+        }
+    }
+/* Page reservation */
+
+.formulaire-reservation {
+text-align: center;
+}
+.img-reservation {
+    background-image: url("http://yesofcorsa.com/wp-content/uploads/2017/05/Cinema-Wallpaper-High-Definition-1024x683.jpg");
+    background-position: bottom 5px left 5px;
+
+}
+.reservation form {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+/* Page Qui Somme Nous ? */
+.about-content {
+    text-align: center;
+}
+.about {
+text-align: center;
+margin: auto;
+padding:15px;
+}
+.about h1 {
+    font-size: 40px;
+    margin: auto;
+    border-left: solid 5px #ffc107;
+    padding-left: 5px;
+}
+.about h3 {
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 20px ;
+}
+.about-desc {
+text-align: center;
+margin: auto;
+}
+.about-desc p {
+margin: auto;
+font-size: 26px;
+margin-bottom: 20px;
+}
+.img-about {
+    height: 500px;
+    width: 100%;
+}
+/* Page Actualités */
+.center {
+    text-align: center;
+}
+.margin {
+    margin: auto;
+}
+.titre-actualite {
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.titre-actualite h1 {
+    padding-left: 5px;
+    border-left: solid 5px #ffc107;
+    margin: auto;
+    font-size: 40px;
+}
+
+.actus {
+
+margin: auto;
+
+}
+.actu {
+    border:solid grey 1px;
+    border-radius: 5px;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+.img-actu {
+height: 200px;
+width: 100%;
+}
+.titre-actu {
+padding-top: 5px;
+}
+.auteur-actu {
+color: grey;
+font-size: 16px;
+}
+.desc-actu {
+    padding: 5px;
+}
+
+/* Page Contact */
+
+.coordonnees {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.contact h1 {
+    padding-left: 5px;
+    border-left: solid 5px #ffc107;
+    text-align: center;
+    font-size: 40px;
+}
+.contact h2 {
+    font-size: 32px;
+}
+.nous-contacter {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+/* Page Article */
+.single-article {
+    text-align: center;
+    margin: auto;
+}
+.single-article h1 {
+
+    padding-bottom: 15px;
+    border-left: solid 5px #ffc107;
+    margin: auto;
+    font-size: 40px;
+}
+.single-article img {
+    width: 50%;
+    height:40%;
+}
+.single-article p {
+    margin-bottom: 20px;
+}
+.img-contact {
+    width:100%;
+    height: 100%;
+}
+/* Page thankyou */
+.thankyou {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("http://www.pngnames.com/files/5/Birthday-Confetti-PNG-Photo.png");
+}
+.thankyou-content {
+    text-align: center;
+}
+.thankyou-content h1 {
+font-size: 30px;
+}
+.thankyou-content p {
+    font-size: 24px;
+}
+.thankyou-content a {
+    font-size: 24px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+/* Footer */
+
+.footer {
+    background-color: black;
+    text-align: center;
+}
+.footerLinks a {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+}
+footer h2 {
+    color: #ffc107;
+}
+
+footer p {
+    color: white;
+    
+}
+.socketBkg{
+    padding-bottom: 15px;
+}
